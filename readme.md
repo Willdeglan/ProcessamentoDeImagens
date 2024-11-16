@@ -1,15 +1,15 @@
-## IFTO DE ARAGUATINS/TO
-## LICENCIATURA EM COMPUTAÇÃO
+### IFTO DE ARAGUATINS/TO
+### LICENCIATURA EM COMPUTAÇÃO
 
 # TRABALHO DE PROCESSAMENTO DE IMAGENS
 
-## PROFESSOR / ORIENTADOR:
-### RAMASIO FERREIRA DE MELO
+### PROFESSOR / ORIENTADOR:
+#### RAMASIO FERREIRA DE MELO
 
-## Autores:
-### ALESSANDRA DE SOUSA BARROS
-### WILLDEGLAN GOMES DA SILVA
-### ELLEN CRISTINA VIEIRA SILVA
+### Autores:
+#### ALESSANDRA DE SOUSA BARROS
+#### WILLDEGLAN GOMES DA SILVA
+#### ELLEN CRISTINA VIEIRA SILVA
 
 ## TEMA:
     Detecção da Classe Pessoa em tempo real em um vídeo de
@@ -135,29 +135,30 @@
     tranquilidade e a proteção em ambientes diversos.
 
 
-# REQUISITOS TECNICOS
+
+# REQUISITOS TÉCNICOS
 
 Para instalação em ambas as platoformas: Windows ou Linux
 
 - Bibliotecas Python:
--> pip install pillow
--> pip install opencv-python
--> pip install ultralytics
+> pip install pillow
+> pip install opencv-python
+> pip install ultralytics
 
--> pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+> pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ou
--> pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+> pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
-### Observação:
+## Observação:
 No caso do Linux, você deverá observar se sua distro contem uma ferramenta gráfica a mais para operar em conjunto com a Lib Pillow.
 Um exemplo seria o ambiente X11 que é um sistema de janelas que permite aos usuários interagir com o Linux através de uma interface gráfica. Quando configurado e funcionando corretamente, o X11 facilita a execução de aplicativos gráficos e a utilização de uma interface de usuário amigável.
 
-# PASSO A PASSO NA EXECUÇÃO DO CODIGO
+## PASSO A PASSO NA EXECUÇÃO DO CODIGO
 - Para uma primeira execução você deverá retirar o 'comentário de bloco' do arquivo chave para que o sistema possa carregar o arquivo .yaml da plataforma COCO, onde estão guardados todos os bancos de dados do sistema;
 - Em seguida o sistema carregará e criarar pastas e arquivos necessários que ele vai precisar para fazer as previsões, caso exista uma pasta específica onde guarda as previsões, o sistema vai excluir e criar uma nova vazia;
 - Por fim, utilizando a Lib Pillow o sistema vai capturar um espaço do home screen para entregar ao sistema e para que ele faça as previsões e ja entregando as precisões ao operador em sua tela.
 
-# VALE LEMBRAR
+## VALE LEMBRAR
 - Esse programa utiliza um bando de dados público disponível e conhecido como COCODATASET.ORG, nela existe atualmente 80 clases bem definidas e que pode definir o foco da predicção do sistema utilizado um parâmetro bem simples chamdo de 'classes=0' ou 'classe pessoa' no momento da linha de comando de predicção.
 
 ## CLASSE DISPONÍVEL
@@ -246,12 +247,14 @@ names:
 ## CODIGO ADAPTÁVEL
 Vale lebrar que esse código foi criado para detecção uma classe, mas ele pode sofrer leves alterações em seu comando e realizar mais outras funções muito interessantes, como:
 - Classificação;
+- Detecção;
 - Segmentação;
 - Track;
 - Pose.
 
 ## CRESCIMENTO
 Utilizando esse mesmo código, adaptando o bando de dados para a segmentação ou você pode criar seu banco de dados específico, em seguida executar esse programa para identificar uma segmentação específica, podendo ser uma cor, um objeto, uma doença ou fungo. Eis que abre um leque muito grande de possibilidades. 
+
 
 ### REFERÊNCIAS
 Todos os créditos são dados a essa biliotecas públicas na plataforma GITHUB
