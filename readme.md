@@ -161,14 +161,15 @@ Um exemplo seria o ambiente X11 que é um sistema de janelas que permite aos usu
 ## VALE LEMBRAR
 - Esse programa utiliza um bando de dados público disponível e conhecido como COCODATASET.ORG, nela existe atualmente 80 clases bem definidas e que pode definir o foco da predicção do sistema utilizado um parâmetro bem simples chamdo de 'classes=0' ou 'classe pessoa' no momento da linha de comando de predicção.
 - Passos de verificação e instalação dessa ferramenta x11 no terminal:
-- - Verificar se ja existe e instalado:
-- - - dpkg -l xserver-xorg
-- - Instalando o x11:
-- - - sudo apt-get install xserver-xorg
-- - Configurando o x11:
-- - - sudo nano /etc/X11/xorg.conf
-- - Restart do servidor gráficos
-- - - sudo systemctl restart gdm
+    - Verificar se ja existe e instalado:
+        - dpkg -l xserver-xorg
+    - Instalando o x11:
+        - sudo apt-get install xserver-xorg
+    - Configurando o x11:
+        - sudo nano /etc/X11/xorg.conf
+    - Restart do servidor gráficos
+        - sudo systemctl restart gdm
+
 Após reiniciar, verifique se a interface gráfica está funcionando corretamente.
 
 ## CLASSES DISPONÍVEIS
@@ -264,6 +265,7 @@ Vale lebrar que esse código foi criado para detecção uma classe, mas ele pode
 
 ## CRESCIMENTO
 Utilizando esse mesmo código, adaptando o bando de dados para a segmentação ou você pode criar seu banco de dados específico, em seguida, executar esse programa com o banco de dados específico para identificar uma segmentação, podendo ser uma cor, um objeto, uma doença ou fungo. Eis que abre um leque muito grande de possibilidades.
+
 
 
 ### REFERÊNCIAS
