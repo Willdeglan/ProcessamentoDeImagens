@@ -273,3 +273,4 @@ Todos os créditos são dados a essa biliotecas públicas na plataforma GITHUB
 - https://github.com/ultralytics/ultralytics
 - https://docs.ultralytics.com/datasets/detect/coco/
 - https://dataset.org
+- https://github.com/cocodataset/cocodataset.github.io
