@@ -15,7 +15,7 @@
     Detecção da Classe Pessoa em tempo real em um vídeo de
     entrada para auxiliar no monitoramento de ambiente restrito
 
-## Trabalho apresentado em sala de aula no dia 10 de junho de 2024.
+## TRABALHO APRESENTADO EM SALA DE AULA NO DIA - 10 de junho de 2024.
 
 
 ## OBJETIVO DO PROJETO
@@ -46,7 +46,7 @@
         ● 4 images para train
         ● 4 images para val
 
-## O repositório “coco.yaml”, root do dataset contém:
+## O REPOSITÓRIO “coco.yaml”, ROOT DATASET CONTÉM:
     ● 118287 images para train
     ● 5000 images para val
     ● 20288 images para teste
@@ -141,19 +141,19 @@
 Para instalação em ambas as platoformas: Windows ou Linux
 
 - Bibliotecas Python:
-> pip install pillow
-> pip install opencv-python
-> pip install ultralytics
+- - pip install pillow
+- - pip install opencv-python
+- - pip install ultralytics
 
-> pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+- - pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ou
-> pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+- - pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 ## Observação:
 No caso do Linux, você deverá observar se sua distro contem uma ferramenta gráfica a mais para operar em conjunto com a Lib Pillow.
 Um exemplo seria o ambiente X11 que é um sistema de janelas que permite aos usuários interagir com o Linux através de uma interface gráfica. Quando configurado e funcionando corretamente, o X11 facilita a execução de aplicativos gráficos e a utilização de uma interface de usuário amigável.
 
-## PASSO A PASSO NA EXECUÇÃO DO CODIGO
+## PASSO A PASSO NA EXECUÇÃO DO CÓDIGO
 - Para uma primeira execução você deverá retirar o 'comentário de bloco' do arquivo chave para que o sistema possa carregar o arquivo .yaml da plataforma COCO, onde estão guardados todos os bancos de dados do sistema;
 - Em seguida o sistema carregará e criarar pastas e arquivos necessários que ele vai precisar para fazer as previsões, caso exista uma pasta específica onde guarda as previsões, o sistema vai excluir e criar uma nova vazia;
 - Por fim, utilizando a Lib Pillow o sistema vai capturar um espaço do home screen para entregar ao sistema e para que ele faça as previsões e ja entregando as precisões ao operador em sua tela.
@@ -162,87 +162,87 @@ Um exemplo seria o ambiente X11 que é um sistema de janelas que permite aos usu
 - Esse programa utiliza um bando de dados público disponível e conhecido como COCODATASET.ORG, nela existe atualmente 80 clases bem definidas e que pode definir o foco da predicção do sistema utilizado um parâmetro bem simples chamdo de 'classes=0' ou 'classe pessoa' no momento da linha de comando de predicção.
 
 ## CLASSE DISPONÍVEL
-names:
-  0: person
-  1: bicycle
-  2: car
-  3: motorcycle
-  4: airplane
-  5: bus
-  6: train
-  7: truck
-  8: boat
-  9: traffic light
-  10: fire hydrant
-  11: stop sign
-  12: parking meter
-  13: bench
-  14: bird
-  15: cat
-  16: dog
-  17: horse
-  18: sheep
-  19: cow
-  20: elephant
-  21: bear
-  22: zebra
-  23: giraffe
-  24: backpack
-  25: umbrella
-  26: handbag
-  27: tie
-  28: suitcase
-  29: frisbee
-  30: skis
-  31: snowboard
-  32: sports ball
-  33: kite
-  34: baseball bat
-  35: baseball glove
-  36: skateboard
-  37: surfboard
-  38: tennis racket
-  39: bottle
-  40: wine glass
-  41: cup
-  42: fork
-  43: knife
-  44: spoon
-  45: bowl
-  46: banana
-  47: apple
-  48: sandwich
-  49: orange
-  50: broccoli
-  51: carrot
-  52: hot dog
-  53: pizza
-  54: donut
-  55: cake
-  56: chair
-  57: couch
-  58: potted plant
-  59: bed
-  60: dining table
-  61: toilet
-  62: tv
-  63: laptop
-  64: mouse
-  65: remote
-  66: keyboard
-  67: cell phone
-  68: microwave
-  69: oven
-  70: toaster
-  71: sink
-  72: refrigerator
-  73: book
-  74: clock
-  75: vase
-  76: scissors
-  77: teddy bear
-  78: hair drier
-  79: toothbrush
+ cod:   clase
+-  0: person
+-  1: bicycle
+-  2: car
+-  3: motorcycle
+-  4: airplane
+-  5: bus
+-  6: train
+-  7: truck
+-  8: boat
+-  9: traffic light
+-  10: fire hydrant
+-  11: stop sign
+-  12: parking meter
+-  13: bench
+-  14: bird
+-  15: cat
+-  16: dog
+-  17: horse
+-  18: sheep
+-  19: cow
+-  20: elephant
+-  21: bear
+-  22: zebra
+-  23: giraffe
+-  24: backpack
+-  25: umbrella
+-  26: handbag
+-  27: tie
+-  28: suitcase
+-  29: frisbee
+-  30: skis
+-  31: snowboard
+-  32: sports ball
+-  33: kite
+-  34: baseball bat
+-  35: baseball glove
+-  36: skateboard
+-  37: surfboard
+-  38: tennis racket
+-  39: bottle
+-  40: wine glass
+-  41: cup
+-  42: fork
+-  43: knife
+-  44: spoon
+-  45: bowl
+-  46: banana
+-  47: apple
+-  48: sandwich
+-  49: orange
+-  50: broccoli
+-  51: carrot
+-  52: hot dog
+-  53: pizza
+-  54: donut
+-  55: cake
+-  56: chair
+-  57: couch
+-  58: potted plant
+-  59: bed
+-  60: dining table
+-  61: toilet
+-  62: tv
+-  63: laptop
+-  64: mouse
+-  65: remote
+-  66: keyboard
+-  67: cell phone
+-  68: microwave
+-  69: oven
+-  70: toaster
+-  71: sink
+-  72: refrigerator
+-  73: book
+-  74: clock
+-  75: vase
+-  76: scissors
+-  77: teddy bear
+-  78: hair drier
+-  79: toothbrush
 
 ## CODIGO ADAPTÁVEL
 Vale lebrar que esse código foi criado para detecção uma classe, mas ele pode sofrer leves alterações em seu comando e realizar mais outras funções muito interessantes, como:
