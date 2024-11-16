@@ -1,24 +1,24 @@
-##### IFTO DE ARAGUATINS/TO
-##### LICENCIATURA EM COMPUTAÇÃO
+## IFTO DE ARAGUATINS/TO
+## LICENCIATURA EM COMPUTAÇÃO
 
-#### TRABALHO DE PROCESSAMENTO DE IMAGENS
+# TRABALHO DE PROCESSAMENTO DE IMAGENS
 
-### PROFESSOR / ORIENTADOR:
-# RAMASIO FERREIRA DE MELO
+## PROFESSOR / ORIENTADOR:
+### RAMASIO FERREIRA DE MELO
 
-### Autores:
-# ALESSANDRA DE SOUSA BARROS
-# WILLDEGLAN GOMES DA SILVA
-# ELLEN CRISTINA VIEIRA SILVA
+## Autores:
+### ALESSANDRA DE SOUSA BARROS
+### WILLDEGLAN GOMES DA SILVA
+### ELLEN CRISTINA VIEIRA SILVA
 
-### TEMA:
+## TEMA:
     Detecção da Classe Pessoa em tempo real em um vídeo de
     entrada para auxiliar no monitoramento de ambiente restrito
 
-### Trabalho apresentado em sala de aula no dia 10 de junho de 2024.
+## Trabalho apresentado em sala de aula no dia 10 de junho de 2024.
 
 
-### OBJETIVO DO PROJETO
+## OBJETIVO DO PROJETO
     Este projeto visa desenvolver e validar um sistema de monitoramento por
     meio de câmeras de segurança em um ambiente restrito a pessoas não autorizadas.
     Essa solução se tornará uma ferramenta auxiliar na segurança contínua de
@@ -29,7 +29,7 @@
     suspeitas em tempo real.
 
 
-DESCRIÇÃO DO CONJUNTO DE DADOS
+## DESCRIÇÃO DO CONJUNTO DE DADOS
         O conjunto de dados utilizado no modelo YOLOv8 é o COCO (Common
     Objects in Context). O COCO é um conjunto de dados amplamente utilizado para
     treinar e avaliar modelos de detecção de objetos e segmentação de instâncias. Ele
@@ -46,13 +46,13 @@ DESCRIÇÃO DO CONJUNTO DE DADOS
         ● 4 images para train
         ● 4 images para val
 
-O repositório “coco.yaml”, root do dataset contém:
+## O repositório “coco.yaml”, root do dataset contém:
     ● 118287 images para train
     ● 5000 images para val
     ● 20288 images para teste
 
-METODOLOGIA PROPOSTA
-    A metodologia envolverá as seguintes etapas
+## METODOLOGIA PROPOSTA
+### A metodologia envolverá as seguintes etapas
         1. Definição do Escopo e Objetivos:
             ● Compreender os requisitos específicos do projeto, como o ambiente de
             captura de imagens, a taxa de quadros desejada e as restrições de
@@ -98,7 +98,7 @@ METODOLOGIA PROPOSTA
             iluminação, ângulos, distâncias).
             ● Validar a precisão e a robustez do sistema.
 
-CRITÉRIOS DE DESEMPENHO
+## CRITÉRIOS DE DESEMPENHO
         O projeto precisa alcançar o mínimo de 70% na detecção para ser
     considerada uma amostra viável, alcançável e promissor em relação a uma possível
     implementação em grande escala no mercado, desta forma, podemos analisar o
@@ -120,7 +120,7 @@ CRITÉRIOS DE DESEMPENHO
     fundamental para garantir a detecção precisa de pessoas em variadas situações de
     vídeo.
 
-RESULTADOS ESPERADOS E IMPACTO
+## RESULTADOS ESPERADOS E IMPACTO
         Conclui-se que o sistema de detecção de pessoa em vídeo em tempo real
     pode aumentar a precisão e a intervenção em tempo hábil nos locais que pessoas
     não autorizadas/proibidas entraram no ambiente monitorado.
